@@ -5,7 +5,7 @@ LIC_FILES_CHKSUM = "file://${COMMON_LICENSE_DIR}/BSD-2-Clause;md5=cb641bc04cda31
 
 inherit allarch systemd
 
-RDEPENDS:${PN} += "e2fsprogs-resize2fs gptfdisk util-linux-fdisk util-linux-blockdev util-linux-partx util-linux-findmnt"
+RDEPENDS:${PN} += "e2fsprogs-resize2fs util-linux-sfdisk util-linux-fdisk util-linux-blockdev util-linux-partx util-linux-findmnt"
 
 SRC_URI = "file://resize-helper \
     file://resize-helper.service \
